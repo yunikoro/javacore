@@ -6,6 +6,6 @@ import com.javacore.itfcImpl.Eagle;
 public class OldEagle extends Eagle {
 	public void getMaxSpeed() {
 		int a = MAX_SPEED;
-		int b = Fly.calculateSpeed(distance, time)
+		double b = Fly.calculateSpeed(12, 67);
 	}
 }
