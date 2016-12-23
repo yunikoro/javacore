@@ -1,6 +1,7 @@
 package com.javacore.p1;
 
 import java.util.Arrays;
+import java.time.*;
 
 import com.javacore.itfc.Fly;
 import com.javacore.itfcImpl.Eagle;
@@ -52,6 +53,14 @@ public class Test {
 		
 		test.outPut("a", "c");
 		
+		System.out.println(LocalDate.now());
+		System.out.println(LocalTime.now());
+		System.out.println(LocalDateTime.now());
+		
+		LocalDate date1 = LocalDate.of(2017, Month.FEBRUARY, 20);
+		System.out.println(date1);
+		LocalDate date2 = LocalDate.of(2015, 1, 31);
+		System.out.println(date2);
 	}
 
 }
