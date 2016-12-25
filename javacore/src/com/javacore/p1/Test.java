@@ -11,6 +11,11 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.util.*;
 
+import static com.javacore.itfcImpl.SatsIpt.*;
+
+import com.javacore.itfcImpl.Koala;
+import com.javacore.itfcImpl.SatsIpt;
+
 
 public class Test {
 
@@ -94,6 +99,27 @@ public class Test {
 		DateTimeFormatter shortDateTime = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
 		System.out.println(shortDateTime.format(ldts));
 		
+		Koala koala = new Koala();
+		System.out.println(koala.count);
+		koala.count = 5;
+		System.out.println(koala.count);
+		koala = null;
+		System.out.println(koala.count);
+		
+		stcMtd();
+		
+		int number = 6;
+		System.out.println(number);
+		//myAppend(number);
+		System.out.println(number);
+		
+		SatsIpt sats = new SatsIpt();
+		sats.result = 7;
+		System.out.println(sats.result);
+		myAppend(sats);
+		System.out.println(sats.result);
+		
+		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 	}
 
 }
