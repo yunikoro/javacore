@@ -9,6 +9,14 @@ public class SatsIpt {
 		System.out.println("mtd1");
 	}
 	
+	public void ovrLoad(int over) {
+		System.out.println("primtive");
+	} 
+	
+	public void ovrLoad(Integer over) {
+		System.out.println("boxing");
+	}
+	
 	public static void stcMtd() {
 		System.out.println("statsIpt stcMtd");
 	}

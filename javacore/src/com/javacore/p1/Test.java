@@ -119,6 +119,9 @@ public class Test {
 		myAppend(sats);
 		System.out.println(sats.result);
 		
+		SatsIpt sat = new SatsIpt();
+		sat.ovrLoad(1);
+		sat.ovrLoad((Integer)1);
 		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 	}
 
