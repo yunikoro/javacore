@@ -122,7 +122,17 @@ public class Test {
 		SatsIpt sat = new SatsIpt();
 		sat.ovrLoad(1);
 		sat.ovrLoad((Integer)1);
-		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+		short c = 7;
+		Integer d = 1;
+		sat.intShort(1);
+		sat.intShort((short) 2);
+		sat.intShort(c);
+		sat.ovrLoad(d);
+		Object obj = new String("haha");
+		//String str = (String) new Object();
+		sat.fly(obj);
+		sat.fly("hehe");
+		sat.fly('c');
 	}
 
 }
