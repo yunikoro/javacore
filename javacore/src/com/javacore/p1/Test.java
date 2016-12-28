@@ -13,6 +13,7 @@ import java.util.*;
 
 import static com.javacore.itfcImpl.SatsIpt.*;
 
+import com.javacore.itfcImpl.InitiallizaitonOrderSimple;
 import com.javacore.itfcImpl.Koala;
 import com.javacore.itfcImpl.SatsIpt;
 
@@ -27,9 +28,14 @@ public class Test {
 		}
 	}
 	
+	private static void change(InitiallizaitonOrderSimple init) {
+		init.kk = "pp";
+		System.out.println(init.kk);
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String a = "ab";
+		/*String a = "ab";
 		String b = "ab".concat("c").concat("d");
 		StringBuilder sbr = new StringBuilder("start ");
 		StringBuilder sdr = sbr.append("time");
@@ -132,7 +138,15 @@ public class Test {
 		//String str = (String) new Object();
 		sat.fly(obj);
 		sat.fly("hehe");
-		sat.fly('c');
+		sat.fly('c');*/
+		System.out.println("haha");
+		InitiallizaitonOrderSimple initiallizaitonOrderSimple1 = new InitiallizaitonOrderSimple();
+		System.out.println();
+		InitiallizaitonOrderSimple initiallizaitonOrderSimple2 = new InitiallizaitonOrderSimple();
+		System.out.println();
+		InitiallizaitonOrderSimple initiallizaitonOrderSimple3 = new InitiallizaitonOrderSimple();
+		change(initiallizaitonOrderSimple3);
+		System.out.println(initiallizaitonOrderSimple3.kk);
 	}
 
 }
