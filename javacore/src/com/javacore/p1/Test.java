@@ -13,6 +13,7 @@ import java.util.*;
 
 import static com.javacore.itfcImpl.SatsIpt.*;
 
+import com.javacore.itfcImpl.Animal;
 import com.javacore.itfcImpl.InitiallizaitonOrderSimple;
 import com.javacore.itfcImpl.Koala;
 import com.javacore.itfcImpl.SatsIpt;
@@ -147,6 +148,15 @@ public class Test {
 		InitiallizaitonOrderSimple initiallizaitonOrderSimple3 = new InitiallizaitonOrderSimple();
 		change(initiallizaitonOrderSimple3);
 		System.out.println(initiallizaitonOrderSimple3.kk);
+		List<String> list = new ArrayList<String>();
+		list.add("aaa");
+		list.add("bbb");
+		list.add("ccc");
+		list.forEach(a -> {System.out.println(a);});
+	
+		Animal animal6 = new Animal();
+		
+		animal6.lamTest((Integer a, Double b) -> {System.out.println();});
 	}
 
 }
