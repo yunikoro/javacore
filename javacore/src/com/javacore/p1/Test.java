@@ -156,7 +156,12 @@ public class Test {
 	
 		Animal animal6 = new Animal();
 		
-		animal6.lamTest((Integer a, Double b) -> {System.out.println();});
+		//animal6.lamTest((Integer a, Double b) -> {System.out.println();});
+		animal6.getPredicate(a -> {
+			a.setSpecies("haha");
+			return true;
+		});
+		System.out.println(animal6.toString());
 	}
 
 }
