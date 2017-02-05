@@ -12,6 +12,10 @@ public class Pet {
 		
 	}
 	
+	public static void hello() {
+		System.out.println("father hello");
+	}
+	
 	public Pet() {
 		
 	}

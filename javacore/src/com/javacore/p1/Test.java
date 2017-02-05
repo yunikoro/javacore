@@ -16,6 +16,7 @@ import static com.javacore.itfcImpl.SatsIpt.*;
 import com.javacore.itfcImpl.Animal;
 import com.javacore.itfcImpl.InitiallizaitonOrderSimple;
 import com.javacore.itfcImpl.Koala;
+import com.javacore.itfcImpl.Pig;
 import com.javacore.itfcImpl.SatsIpt;
 
 
@@ -162,6 +163,9 @@ public class Test {
 			return true;
 		});
 		System.out.println(animal6.toString());
+		
+		Pig pigx = new Pig();
+		Pig.hello();
 	}
 
 }
