@@ -166,6 +166,7 @@ public class Test {
 		
 		Pig pigx = new Pig();
 		Pig.hello();
+		
 	}
 
 }
